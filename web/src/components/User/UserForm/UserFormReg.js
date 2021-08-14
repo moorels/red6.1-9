@@ -18,13 +18,7 @@ const formatDatetime = (value) => {
   }
 }
 
-<<<<<<< HEAD
 
-
-
-
-=======
->>>>>>> 28ea29ab5d46b6baa0dc945cd7ccff79d59da240
 const UserFormReg = (props) => {
 const genid = Math.floor(Math.random()* 999999999)
 const [id,setId] = useState(genid)
