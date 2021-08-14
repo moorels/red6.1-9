@@ -59,11 +59,6 @@ const User = ({ user }) => {
               <td>{user.id}</td>
             </tr>
             <tr>
-<<<<<<< HEAD
-              <th>First namex</th>
-=======
-              <th>First name</th>
->>>>>>> 28ea29ab5d46b6baa0dc945cd7ccff79d59da240
               <td>{user.firstName}</td>
             </tr>
             <tr>

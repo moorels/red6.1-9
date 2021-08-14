@@ -1,5 +1,4 @@
-import {useState,useEffect} from 'react';
-
+import { useState, useEffect } from 'react'
 
 import {
   Form,
@@ -10,27 +9,20 @@ import {
   Submit,
 } from '@redwoodjs/forms'
 
-
-
 const formatDatetime = (value) => {
   if (value) {
     return value.replace(/:\d{2}\.\d{3}\w/, '')
   }
 }
 
-
 const UserFormReg = (props) => {
-const genid = Math.floor(Math.random()* 999999999)
-const [id,setId] = useState(genid)
+  const genid = Math.floor(Math.random() * 999999999)
+  const [id, setId] = useState(genid)
 
-
-useEffect(() => {
-
-const genid2 = Math.floor(Math.random()* 999999999)
-  setId(genid2)
-
-}, [setId])
-
+  useEffect(() => {
+    const genid2 = Math.floor(Math.random() * 999999999)
+    setId(genid2)
+  }, [setId])
 
   const onSubmit = (data) => {
     props.onSave(data, props)
@@ -48,7 +40,7 @@ const genid2 = Math.floor(Math.random()* 999999999)
 
         <TextField
           name="id"
-         type="number"
+          type="number"
           defaultValue={id}
           hidden
           className="rw-input"
@@ -58,12 +50,6 @@ const genid2 = Math.floor(Math.random()* 999999999)
 
         <FieldError name="id" className="rw-field-error" />
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 28ea29ab5d46b6baa0dc945cd7ccff79d59da240
         <Label
           name="firstName"
           className="rw-label"
@@ -152,9 +138,7 @@ const genid2 = Math.floor(Math.random()* 999999999)
         <div className="rw-button-group">
           <Submit disabled={props.loading} className="rw-button rw-button-blue">
             Save
-
           </Submit>
-
         </div>
       </Form>
     </div>
