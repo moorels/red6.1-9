@@ -1,0 +1,3 @@
+/*! For license information please see 4.4c16090a.chunk.js.LICENSE.txt */
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{480:function(e,n,t){"use strict";t.r(n);var a=t(1),l=t.n(a),o=t(26);n.default=function(){return l.a.createElement(l.a.Fragment,null,l.a.createElement("h1",null,"LoginPage"),l.a.createElement("p",null,"Find me in ",l.a.createElement("code",null,"./web/src/pages/LoginPage/LoginPage.js")),l.a.createElement("p",null,"My default route is named ",l.a.createElement("code",null,"login"),", link to me with `",l.a.createElement(o.Link,{to:o.routes.login()},"Login"),"`"))}}}]);
+//# sourceMappingURL=4.4c16090a.chunk.js.map

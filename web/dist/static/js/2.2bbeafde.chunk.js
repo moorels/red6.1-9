@@ -1,0 +1,3 @@
+/*! For license information please see 2.2bbeafde.chunk.js.LICENSE.txt */
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{478:function(r,e,n){"use strict";n.r(e);var t=n(1),a=n.n(t);e.default=function(){return a.a.createElement(a.a.Fragment,null,a.a.createElement("div",null,"Aboutrtytrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrwerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr"))}}}]);
+//# sourceMappingURL=2.2bbeafde.chunk.js.map

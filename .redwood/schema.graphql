@@ -1,0 +1,53 @@
+input CreateUserInput {
+  id: Int!
+  firstName: String!
+  lastName: String!
+  password: String!
+  email: String!
+  phone: String!
+}
+
+scalar Date
+
+scalar DateTime
+
+scalar JSON
+
+scalar JSONObject
+
+type Mutation {
+  createUser(input: CreateUserInput!): User!
+  updateUser(id: Int!, input: UpdateUserInput!): User!
+  deleteUser(id: Int!): User!
+}
+
+type Query {
+  redwood: Redwood
+  user(id: Int!): User
+  users: [User!]!
+}
+
+type Redwood {
+  version: String
+  currentUser: JSON
+  prismaVersion: String
+}
+
+scalar Time
+
+input UpdateUserInput {
+  firstName: String
+  lastName: String
+  password: String
+  email: String
+  phone: String
+}
+
+type User {
+  id: Int!
+  firstName: String!
+  lastName: String!
+  password: String!
+  email: String!
+  phone: String!
+}
